@@ -7,12 +7,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
       <div>
           <img src={'https://kalvium.com/wp-content/uploads/2023/04/Kalvium-Logo-SVG.svg'} className="logo react" alt="React logo" />
       </div>
       <h1>Hello Kalvium</h1>
-    </>
+    </div>
   )
 }
 
